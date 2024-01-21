@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+  font-family: cambria;
+  font-size: 40px;
+}
+h2 {
+  text-align: center;
+  font-family: cambria;
+  font-size: 20px;
+}
+h3 {
+  text-align: left;
+  font-family: cambria;
+  font-color:white
+  font-size: 20px;
+}
+.header {
+  padding: 5px;
+  text-align: center;
+  border: 5px solid black;
+  color: darkblue;
+  background-color: azure;
+  font-size: 30px;
+}
+.box {
+  border: 5px solid black;
+  padding: 5px;
+  margin: 20px;
+  background-color: azure;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  background-color: #005f75;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Contact Us</h1>
+</div>
+<div class="box">
+  <form>
+    <h2 align="center">Fill in the following details</h2>
+    <div class="navbar"><h3> Bank.</h3> </div>
+      <h3>First Name:</h3><input type="text" name="first_name"/><br>
+      <h3>Last Name:</h3><input type="text" name="last_name"/><br>
+      <h3>Email:</h3><input type="text" name="email"/><br>
+      <h3>Message:</h3><textarea name="message" rows="4" cols="50"></textarea><br>
+      <center><input type="submit" value="Submit" class="button"></center><br>
+    </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
+
+
